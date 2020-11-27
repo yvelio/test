@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T17:28:43.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="RM_fD1l6aBcnhA_z2iNl" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T17:43:35.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="NiV52Z2ASZgNlbzo4r68" version="13.10.0" type="github">
   <diagram id="masebG0VYPJyVEianIFm" name="Page-1">
-    <mxGraphModel dx="524" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1456" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,146 +36,154 @@
           </mxCell>
         </object>
         <mxCell id="Nh5QQwun1p5BCpEkRl_I-16" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=terminate;" vertex="1" parent="1">
-          <mxGeometry x="260" y="560" width="50" height="50" as="geometry" />
+          <mxGeometry x="255" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-113" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nh5QQwun1p5BCpEkRl_I-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Nh5QQwun1p5BCpEkRl_I-28" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="1">
           <mxGeometry x="502" y="640" width="42" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nh5QQwun1p5BCpEkRl_I-28" target="Nh5QQwun1p5BCpEkRl_I-68">
-          <mxGeometry x="120" y="665" as="geometry">
-            <mxPoint x="80" y="750" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="523" y="720" />
-              <mxPoint x="80" y="720" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-59" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry x="215.67" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="255.67" y="720" as="sourcePoint" />
-            <mxPoint x="255.67" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Product Page Functionality&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-68">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="10" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Product Inventory, Availability &amp;amp; Pricing&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-71">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="186" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Other Product Data&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-76">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="362" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nh5QQwun1p5BCpEkRl_I-76" target="Nh5QQwun1p5BCpEkRl_I-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Nh5QQwun1p5BCpEkRl_I-88">
-          <mxGeometry x="770" y="735" as="geometry">
-            <mxPoint x="1880" y="720" as="targetPoint" />
-            <mxPoint x="520" y="720" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1840" y="720" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Department / Category Page &amp;amp; Products on It&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-80">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="538" y="760.0000000000001" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Brand Page &amp;amp; Products on It&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-81">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="714" y="760.0000000000001" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Cart / Checkout&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-82">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="890" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-83" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="567.58" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="607.58" y="720" as="sourcePoint" />
-            <mxPoint x="607.9799999999999" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;						My Account (inc Super User)&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-84">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="1066" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Warranty&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-85">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="1242" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Compliance&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-86">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="1418" y="760.0000000000001" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;						Product Update from Catalogue&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-87">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="1594" y="760.0000000000001" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Other Site Functionality&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-88">
-          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-            <mxGeometry x="1770" y="760" width="140" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-89" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="743.58" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="783.5799999999999" y="720" as="sourcePoint" />
-            <mxPoint x="783.98" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-90" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="919.58" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="959.5799999999999" y="720" as="sourcePoint" />
-            <mxPoint x="959.98" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-92" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="1095.67" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="1135.6699999999998" y="720" as="sourcePoint" />
-            <mxPoint x="1136.07" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-96" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry x="391.66999999999996" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="431.66999999999996" y="720" as="sourcePoint" />
-            <mxPoint x="431.66999999999996" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-97" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="1271.67" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="1311.6699999999998" y="720" as="sourcePoint" />
-            <mxPoint x="1312.07" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-98" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="1447.67" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="1487.6699999999998" y="720" as="sourcePoint" />
-            <mxPoint x="1488.07" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nh5QQwun1p5BCpEkRl_I-99" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry x="1623.67" y="718" width="50" height="50" as="geometry">
-            <mxPoint x="1663.6699999999998" y="720" as="sourcePoint" />
-            <mxPoint x="1664.07" y="760" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Nh5QQwun1p5BCpEkRl_I-100" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nh5QQwun1p5BCpEkRl_I-28" target="Nh5QQwun1p5BCpEkRl_I-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nh5QQwun1p5BCpEkRl_I-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nh5QQwun1p5BCpEkRl_I-28" target="Nh5QQwun1p5BCpEkRl_I-28">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-111" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-162" y="710" width="1900" height="90.00000000000011" as="geometry" />
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Product Page Functionality&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-68">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-59" value="" style="endArrow=classic;html=1;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="205.67" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="245.66999999999996" as="sourcePoint" />
+            <mxPoint x="245.66999999999996" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Product Inventory, Availability &amp;amp; Pricing&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-71">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="176" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Other Product Data&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-76">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="352" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111" source="Nh5QQwun1p5BCpEkRl_I-76" target="Nh5QQwun1p5BCpEkRl_I-76">
+          <mxGeometry x="176" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111" target="Nh5QQwun1p5BCpEkRl_I-88">
+          <mxGeometry x="760" y="15" as="geometry">
+            <mxPoint x="1870" as="targetPoint" />
+            <mxPoint x="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Department / Category Page &amp;amp; Products on It&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-80">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="528" y="40.000000000000114" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Brand Page &amp;amp; Products on It&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-81">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="704" y="40.000000000000114" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Cart / Checkout&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-82">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="880" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-83" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="557.58" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="597.58" as="sourcePoint" />
+            <mxPoint x="597.9799999999999" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;						My Account (inc Super User)&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-84">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="1056" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Warranty&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-85">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="1232" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Compliance&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-86">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="1408" y="40.000000000000114" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;						Product Update from Catalogue&lt;br&gt;					&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-87">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="1584" y="40.000000000000114" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Other Site Functionality&lt;/span&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;					&lt;/span&gt;" id="Nh5QQwun1p5BCpEkRl_I-88">
+          <mxCell style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+            <mxGeometry x="1760" y="40" width="140" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-89" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="733.58" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="773.5799999999999" as="sourcePoint" />
+            <mxPoint x="773.98" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-90" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="909.58" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="949.5799999999999" as="sourcePoint" />
+            <mxPoint x="949.98" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-92" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="1085.67" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="1125.6699999999998" as="sourcePoint" />
+            <mxPoint x="1126.07" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-96" value="" style="endArrow=classic;html=1;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="381.66999999999996" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="421.66999999999996" as="sourcePoint" />
+            <mxPoint x="421.66999999999996" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-97" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="1261.67" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="1301.6699999999998" as="sourcePoint" />
+            <mxPoint x="1302.07" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-98" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="1437.67" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="1477.6699999999998" as="sourcePoint" />
+            <mxPoint x="1478.07" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-99" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="1613.67" y="-2" width="50" height="50" as="geometry">
+            <mxPoint x="1653.6699999999998" as="sourcePoint" />
+            <mxPoint x="1654.07" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Nh5QQwun1p5BCpEkRl_I-111">
+          <mxGeometry x="327" y="-25" as="geometry">
+            <mxPoint x="65.93999999999994" y="39.29999999999984" as="targetPoint" />
+            <mxPoint x="500" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
