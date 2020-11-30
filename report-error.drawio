@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T22:09:59.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="phZQIgh0ZbS0nQ9FL2hO" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T22:13:19.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="fnm5VFDFJUn8qUjexEZh" version="13.10.0" type="github">
   <diagram id="masebG0VYPJyVEianIFm" name="Page-1">
     <mxGraphModel dx="1497" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -750,6 +750,18 @@
         </mxCell>
         <mxCell id="Nh5QQwun1p5BCpEkRl_I-384" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;error_report[problemTypeId][1]&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="1120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-386" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br/&gt;						Payment Options and Process Error&lt;br/&gt;					&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-387" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Shipping Options &amp;amp; Cost Error&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-388" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Other Cart / Checkout Error&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nh5QQwun1p5BCpEkRl_I-389" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Products Display and Behavior Error&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
